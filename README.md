@@ -21,7 +21,8 @@ To make predictions using your trained Random Forest model, you would typically 
 1. Preprocess the input data: You need to preprocess the input text in the same way you preprocessed your training and testing data. This may include tasks like tokenization, text cleaning, and feature extraction.
 2. Use the trained Random Forest model: You can use the .predict() method of the trained Random Forest classifier to obtain predictions for your input data. Here's an example of how to do it:
 
-   # Assuming your trained model is named 'rf_classifier'
+# Assuming your trained model is named 'rf_classifier'
+
   input_data = ["building windows", "containers", "tableware", "headlamps"]
   predictions = rf_classifier.predict(input_data)
 
